@@ -1,6 +1,8 @@
-# Upload-Artifact v3
+# Upload-Artifact-Post-Action v3
 
 This uploads artifacts from your workflow allowing you to share data between jobs and store data once a workflow is complete.
+This is a carbon copy of [upload-artifact](https://github.com/actions/upload-artifact), with the only difference being that
+this action does its things in the `post` phase.
 
 See also [download-artifact](https://github.com/actions/download-artifact).
 
